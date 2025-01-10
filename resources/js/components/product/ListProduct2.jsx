@@ -37,10 +37,6 @@ const ListProduct2=()=>{
 
   // Ajouter un écouteur global pour la touche Entrée
   useEffect(() => {
- 
-       
-     
-   
     window.addEventListener("keydown", handleKeyDown);
     // Nettoyage de l'écouteur lors du démontage
     return () => {
